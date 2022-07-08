@@ -3,6 +3,7 @@ This is a Python 3.8 script to load specified receipt data and output it to the 
 Using command line:
 arg1 - json file location (local or web)
 arg2 - order of output specified with keys of the input data (default - 'aczebdfg')
+with no arguments default values will be used
 
 Class methods
 __init__(arg) - constructs the object from arg data and calculates outputs. type of arg can be local or web JSON location or Python dictionary structure
